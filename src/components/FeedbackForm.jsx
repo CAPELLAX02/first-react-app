@@ -3,7 +3,7 @@ import RatingSelect from './RatingSelect';
 import Card from './shared/Card';
 import Button from './shared/Button';
 import FeedbackContext from '../context/FeedbackContext';
-import FeedbackItem from './FeedbackItem';
+// import FeedbackItem from './FeedbackItem';
 
 function FeedbackForm() {
   const [text, setText] = useState('');
