@@ -2,17 +2,17 @@ const FeedbackData = [
   {
     id: 1,
     rating: 10,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est exercitationem qui cumque nostrum dicta expedita mollitia rerum ipsum perspiciatis porro!",
+    text: 'This is the first example feedback message!',
   },
   {
     id: 2,
-    rating: 9,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est exercitationem qui cumque nostrum dicta expedita mollitia rerum ipsum perspiciatis porro!",
+    rating: 8,
+    text: 'This is the second example feedback message!',
   },
   {
     id: 3,
-    rating: 8,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est exercitationem qui cumque nostrum dicta expedita mollitia rerum ipsum perspiciatis porro!",
+    rating: 7,
+    text: 'This is the third example feedback message!',
   },
 ];
 

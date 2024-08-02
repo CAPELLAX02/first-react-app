@@ -9,7 +9,6 @@ function FeedbackItem({ item }) {
 
   return (
     <Card>
-      {/* //  reverse={true} */}
       <div className='num-display'>{item.rating}</div>
       <button onClick={() => deleteFeedback(item.id)} className='close'>
         <FaTimes color='purple' />

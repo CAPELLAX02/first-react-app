@@ -6,14 +6,9 @@
   padding: 0;
 }
 
-/* .active {
-  background-color: #000;
-  color: #f00;
-} */
-
 body {
   font-family: 'Poppins', sans-serif;
-  background: #a21643
+  background: #a21643;
   color: #fff;
   line-height: 1.6;
   height: 100vh;

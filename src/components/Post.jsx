@@ -7,7 +7,6 @@ function Post() {
 
   const onClick = () => {
     navigate('/about');
-    // /post adresindeyken click butonuna tıkladığımızda /about adresine yönlendirileceğiz.
   };
 
   if (status === 404) {

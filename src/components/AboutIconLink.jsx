@@ -7,8 +7,6 @@ function AboutIconLink() {
       <Link
         to={{
           pathname: '/about',
-          // search: '?sort=name',
-          // hash: '#hello',
         }}
       >
         <FaQuestion size={30} />

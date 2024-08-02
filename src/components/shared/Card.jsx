@@ -1,17 +1,12 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 function Card({ children, reverse }) {
-  // CONDITIONAL CLASS:
-
-  // return <div className={`card ${reverse && "reverse"}`}>{children}</div>;
-
   return (
     <div
-      className="card"
-      // CONDITIONAL STYLING:
+      className='card'
       style={{
-        backgroundColor: reverse ? "rgba(0,0,0,0.4)" : "#fff",
-        color: reverse ? "#fff" : "#000",
+        backgroundColor: reverse ? 'rgba(0,0,0,0.4)' : '#fff',
+        color: reverse ? '#fff' : '#000',
       }}
     >
       {children}
@@ -20,7 +15,6 @@ function Card({ children, reverse }) {
 }
 
 Card.defaultProps = {
-  // Kartların açık/koyu tema olmasına true/false diyerek buradan değiştirebiliriz:
   reverse: false,
 };
 
